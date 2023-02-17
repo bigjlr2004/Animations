@@ -218,3 +218,12 @@ div:last-child:hover {
    display: grid;
    place-content: center;
 }
+
+.long {
+   width: 5px;
+   height: 200px;
+   color: black;
+   position: absolute;
+   top: 180px;
+   left: 743px;
+}
