@@ -26,7 +26,7 @@ main {
    gap: 1rem;
 }
 
-div {}
+
 
 div:first-child {
    background-color: dodgerblue;
@@ -73,83 +73,83 @@ div:last-child:hover {
   animation-iteration-count: 2;
   animation-direction: normal;
   animation-fill-mode: forwards; */
-   animation: 5s ease-in-out .01s 2 normal forwards slide;
+   animation: 5s ease-in-out .01s 2 reverse forwards slide;
 }
 
 .animate2 {
-   animation: 5s ease-in-out .05s 2 normal backwards slide2;
+   animation: .5s linear 1s infinite alternate slidein;
 }
 
 .animate3 {
-   animation: 5s ease-in-out .10s 2 normal forwards slide;
+   animation: 5s ease-in-out .10s 2 reverse forwards slide;
 }
 
 .animate4 {
-   animation: 5s ease-in-out .15s 2 normal backwards slide2;
+   animation: 5s ease-in-out .15s 2 normal forwards slide2;
 }
 
 .animate5 {
-   animation: 5s ease-in-out .20s 2 normal forwards slide;
+   animation: 5s ease-in-out .20s 2 reverse forwards slide;
 }
 
 .animate6 {
-   animation: 5s ease-in-out .25s 2 normal backwards slide2;
+   animation: 5s ease-in-out .25s 2 normal forwards slide2;
 }
 
 .animate7 {
-   animation: 5s ease-in-out .35s 2 normal forwards slide;
+   animation: 5s ease-in-out .35s 2 reverse forwards slide;
 }
 
 .animate8 {
-   animation: 5s ease-in-out .40s 2 normal backwards slide2;
+   animation: 5s ease-in-out .40s 2 normal forwards slide2;
 }
 
 .animate9 {
-   animation: 5s ease-in-out .45s 2 normal forwards slide2;
+   animation: 5s ease-in-out .45s 2 reverse forwards slide2;
 }
 
 .animate10 {
-   animation: 5s ease-in-out .50s 2 normal backwards slide2;
+   animation: 5s ease-in-out .50s 2 normal forwards slide2;
 }
 
 .animate11 {
-   animation: 5s ease-in-out .55s 2 normal forwards slide;
+   animation: 5s ease-in-out .55s 2 reverse forwards slide;
 }
 
 .animate12 {
-   animation: 5s ease-in-out .60s 2 normal backwards slide2;
+   animation: 5s ease-in-out .60s 2 normal forwards slide2;
 }
 
 .animate13 {
-   animation: 5s ease-in-out .65s 2 normal forwards slide;
+   animation: 5s ease-in-out .65s 2 reverse forwards slide;
 }
 
 .animate14 {
-   animation: 5s ease-in-out .70s 2 normal backwards slide2;
+   animation: 5s ease-in-out .70s 2 normal forwards slide2;
 }
 
 .animate15 {
-   animation: 5s ease-in-out .75s 2 normal forwards slide1;
+   animation: 5s ease-in-out .75s 2 reverse forwards slide1;
 }
 
 .animate16 {
-   animation: 5s ease-in-out .80s 2 normal backwards slide2;
+   animation: 5s ease-in-out .80s 2 normal forwards slide2;
 }
 
 .animate17 {
-   animation: 5s ease-in-out .85s 2 normal forwards slide1;
+   animation: 5s ease-in-out .85s 2 reverse forwards slide1;
 }
 
 .animate18 {
-   animation: 5s ease-in-out .90s 2 normal backwards slide2;
+   animation: 5s ease-in-out .90s 2 normal forwards slide2;
 }
 
 .animate19 {
-   animation: 5s ease-in-out .95s 2 normal forwards slide1;
+   animation: 5s ease-in-out .95s 2 reverse forwards slide1;
 }
 
 .animate20 {
-   animation: 5s ease-in-out 1s 2 normal backwards slide2;
+   animation: 5s ease-in-out 1s 2 normal forwards slide2;
 }
 
 @keyframes slide {
